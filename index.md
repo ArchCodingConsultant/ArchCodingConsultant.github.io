@@ -3,4 +3,4 @@
 [comment]: # (This actually is the most platform independent comment - ZJL)
 [comment]: # (For Markdown coding syntax: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code  - ZJL)
 
-# Arch Coding Consulting PUSSY SLAYER BITCH CUNT
+# Arch Coding Consulting
