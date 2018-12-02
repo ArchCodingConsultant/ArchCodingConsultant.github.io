@@ -16,9 +16,10 @@ h1 {
 }
 
 nav {
-    margin-left : -90px;
-    font-weight : bold;
-    padding : 20px;
-    width : 160px;
-    letter-spacing : 1px;
+    margin: 0;
+    margin-left: -90px;
+    font-weight: bold;
+    padding: 0;
+    width: 160px;
+    letter-spacing: 1px;
 }
