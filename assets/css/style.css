@@ -1,14 +1,27 @@
-head {
-    margin-left: 50px;
-    font-weight: bold;
-    
-}
-
 body {
     padding-left: 11em;
     font-family: Helvetica; font-size: 25px; font-style: normal; ;
     color: rgb(0, 0, 0);
-    background-image: url(/content/images/Image.jpg);
+    background-image: url(/content/images/Image.jpg); 
     background-size : cover;
     background-repeat : no-repeat; 
+}
+
+h1 { 
+    position : relative;
+    top : 18px;
+    left : 10px;
+    word-spacing : 5px;
+    text-shadow: 1px 1px #5a5252;
+}
+
+nav {
+    margin-left : -200px;
+    margin-right : auto;
+    font-weight : bold;
+    padding : 20px;
+    float : left;
+    width : 160px;
+    display : block;
+    letter-spacing : 2px;
 }
