@@ -9,17 +9,19 @@ body {
 
 h1 { 
     position : relative;
-    top : 5px;
+    top : 18px;
     left : 10px;
     word-spacing : 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 1px 1px #5a5252;
 }
 
 nav {
-    margin: 0;
-    margin-left: -90px;
-    font-weight: bold;
-    padding: 0;
-    width: 160px;
-    letter-spacing: 1px;
+    margin-left : -200px;
+    margin-right : auto;
+    font-weight : bold;
+    padding : 20px;
+    float : left;
+    width : 160px;
+    display : block;
+    letter-spacing : 2px;
 }
