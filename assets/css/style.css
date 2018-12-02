@@ -3,26 +3,27 @@ body {
     font-family: Helvetica; font-size: 25px; font-style: normal; ;
     color: rgb(0, 0, 0);
     background-image: url(/content/images/Image.jpg); 
-    background-size : cover;
-    background-repeat : no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 h1 { 
-    position : relative;
-    top : 18px;
-    left : 10px;
-    word-spacing : 5px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    word-spacing: 5px;
     text-shadow: 2px 2px #fd0000;
 }
 
 nav {
-    margin-left : -250px;
-    font-weight : normal;
-    padding : 20px;
-    float : left;
-    width : 90px;
-    display : block;
-    letter-spacing : 2px;
+
+    margin-left: -250px;
+    font-weight: normal;
+    top: 40px;
+    letter-spacing: 2px;
     color: black;
     font-size: 18;
+}
+ul { display:inline;
+     list-style:none;
 }
