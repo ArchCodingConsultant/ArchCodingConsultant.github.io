@@ -7,15 +7,8 @@ body {
     background-repeat: no-repeat; 
 }
 
-h1 { 
-    position: relative;
-    top: 0px;
-    left: 10px;
-    word-spacing: 5px;
-    text-shadow: 2px 2px #fd0000;
-}
-
 nav {
+    text-decoration: none;
     position: absolute;
     margin-left: -250px;
     font-weight: normal;
@@ -23,8 +16,33 @@ nav {
     letter-spacing: 2px;
     color: black;
     font-size: 18;
-
 }
-ul { display:inline;
-     list-style:none;
+
+
+h1 { 
+    position: relative;
+    top: 0px;
+    left: 10px;
+    word-spacing: 5px;
+    text-shadow: 1px 1px #050505;
+}
+
+ul {
+    display: inline;
+    list-style: none;   
+    color: black;
+    margin : 0;
+    padding-left : 0;
+    font-size : 1.2em;
+    line-height : 350%;
+}
+
+li a:hover {
+    background-color: rgb(194, 221, 119);
+    border-bottom : 2px solid #330000;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
