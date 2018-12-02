@@ -8,6 +8,9 @@ body {
 }
 
 h1 { 
-    text-align: center;
+    position : relative;
+    top : 18px;
+    left : 10px;
+    word-spacing : 5px;
     text-shadow: 1px 1px #5a5252;
 }
