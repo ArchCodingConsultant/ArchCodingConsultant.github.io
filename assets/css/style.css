@@ -9,10 +9,10 @@ body {
 
 h1 { 
     position : relative;
-    top : 18px;
+    top : 5px;
     left : 10px;
     word-spacing : 5px;
-    text-shadow: 1px 1px #5a5252;
+    text-shadow: 2px 2px #ff0000;
 }
 
 nav {
