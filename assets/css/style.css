@@ -12,11 +12,11 @@ h1 {
     top : 18px;
     left : 10px;
     word-spacing : 5px;
-    text-shadow: 1px 1px #5a5252;
+    text-shadow: 2px 2px #fd0000;
 }
 
 nav {
-    margin-left : -200px;
+    margin-left : -250px;
     margin-right : auto;
     font-weight : bold;
     padding : 20px;
