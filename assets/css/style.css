@@ -2,6 +2,7 @@ body {
     padding-left: 11em;
     font-family: Helvetica; font-size: 25px; font-style: normal; ;
     color: rgb(0, 0, 0);
-    background-color: #dee494;
     background-image: url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjB4cTb9YDfAhUH1oMKHfTEA3UQjRx6BAgBEAU&url=https%3A%2F%2Fwww.mountaineers.org%2Fimages%2Fplaceholder-images%2Fplaceholder-400-x-400%2Fview&psig=AOvVaw2Jbn7gy3SFKZLZwUNn93sW&ust=1543832313160372);
- }
+    background-size : cover;
+    background-repeat : no-repeat; 
+}
