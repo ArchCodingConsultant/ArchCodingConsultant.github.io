@@ -21,8 +21,8 @@ nav {
 
 h1 { 
     position: relative;
-    top: 0px;
-    left: 10px;
+    top: 10px;
+    left: 50px;
     word-spacing: 5px;
     text-shadow: 1px 1px #050505;
 }
