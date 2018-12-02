@@ -16,13 +16,14 @@ h1 {
 }
 
 nav {
-
+    position: absolute;
     margin-left: -250px;
     font-weight: normal;
-    top: 40px;
+    margin-top: 100px;
     letter-spacing: 2px;
     color: black;
     font-size: 18;
+
 }
 ul { display:inline;
      list-style:none;
