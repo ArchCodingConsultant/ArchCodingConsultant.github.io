@@ -17,11 +17,8 @@ h1 {
 
 nav {
     margin-left : -90px;
-    margin-right : auto;
     font-weight : bold;
     padding : 20px;
-    float : left;
     width : 160px;
-    display : block;
-    letter-spacing : 2px;
+    letter-spacing : 1px;
 }
