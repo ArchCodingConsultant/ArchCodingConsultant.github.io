@@ -1,32 +1,8 @@
 body {
     padding-left: 11em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: purple;
-    background-color: #d8da3d }
-  ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-  address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
+    font-family: Helvetica; font-size: 25px; font-style: normal; ;
+    color: rgb(0, 0, 0);
+    background-image: url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjB4cTb9YDfAhUH1oMKHfTEA3UQjRx6BAgBEAU&url=https%3A%2F%2Fwww.mountaineers.org%2Fimages%2Fplaceholder-images%2Fplaceholder-400-x-400%2Fview&psig=AOvVaw2Jbn7gy3SFKZLZwUNn93sW&ust=1543832313160372);
+    background-size : cover;
+    background-repeat : no-repeat; 
+}
