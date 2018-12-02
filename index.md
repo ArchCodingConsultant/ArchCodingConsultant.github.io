@@ -4,3 +4,4 @@
 [comment]: # (For Markdown coding syntax: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code  - ZJL)
 
 # Arch Coding Consulting
+![Zach Lemons](https://github.com/ArchCodingConsultant/ArchCodingConsultant.github.io/content/images/me.jpg "Zach Lemons")
