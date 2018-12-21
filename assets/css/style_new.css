@@ -1,0 +1,17 @@
+body {
+    font-family: Helvetica; font-size: 25px; font-style: normal; ;
+    color: rgb(0, 0, 0);
+    /* background-image: url(/content/images/Image.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;  */
+    background-color: gray;
+}
+#top{
+    background-color: aquamarine;
+}
+#leftside{
+    background-color: blue;
+}
+#bottom{
+    background-color:red;
+}
