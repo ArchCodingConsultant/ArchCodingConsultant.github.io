@@ -1,35 +1,123 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Links stylesheet to style.css in repository -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta charset="UTF-8">
-    <title>
-      Contact Us
-    </title>
-  </head>
+<html lang="en">
+<head>
+<title>ACC Combined</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: black ;
+}
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
 
-  <!-- Side Bar Start -->
-  <nav>
-      <ul style="list-style: none;">
-        <!-- List Start -->
-          <li><a href="/index.html">Home </a></li>
-          <li><a href="/about-us_page.html"> About Us</a></li>
-          <li><a href="https://GitHub.com/ArchCodingConsultant"> GitHub Page</a></li>
-          <!-- <li>Test</li> -->
-        <!-- List End -->
-      </ul>
-    </nav>
-  <!-- Side Bar End -->
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
 
-  <body>
-    <H1> Contact Us</H1>
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(4, 66, 160);
+}
 
-    <H2>Contact Information</H2>
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgb(4, 66, 160);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Arch Coding Consultant</h1>
+  <p>We do the jobs no one else wants to do</p>
+</div>
+
+<div class="topnav">
+  <a href="/contact_page.html">Links Coming Soon</a>
+  <!-- <a href="#">Current Jobs</a>
+  <a href="#">Past Jobs</a> -->
+  <a href="/index.html">Home</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Content Coming</h2>
     <p>
-     zach.lemons@archcodingconsultant.com 
     </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Content Coming</h2>
+  </div>
+  
+  <div class="column side">
+    <h2>Content Coming</h2>
+    <p></p>
+  </div>
+</div>
 
-    <H2>Why to Contact Us</H2>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<div class="footer">
+  <p>ACC 2019</p>
+</div>
+  
+</body>
 </html>
