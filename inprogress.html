@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACC Combined</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: black ;
+}
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(4, 66, 160);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgb(4, 66, 160);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Arch Coding Consultant</h1>
+  <p>We do the jobs no one else wants to do</p>
+</div>
+
+<div class="topnav">
+  <a href="/contact_page.html">Links Coming Soon</a>
+  <!-- <a href="#">Current Jobs</a>
+  <a href="#">Past Jobs</a> -->
+  <a href="/contact_page.html">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Coding Languages:</h2>
+    <p>
+        <ol class="d">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>C#</li>
+          </ol>
+    </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>About Us</h2>
+    <p>Founded in December, 2018.  We strive to become a well known, coding consulting company. Currently the group is two individuals.  Both of us working towards becoming professional coders / IT individuals.</p>
+    <p>One individuals working in an IT Helpdesk Role and the other working in management at a packing facility, we very much enjoy coding in our day to day lives.</p>
+  </div>
+  
+  <div class="column side">
+    <h2>Current Status</h2>
+    <p>Working on the development of our group and our website.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright ACC 2019</p>
+</div>
+  
+</body>
+</html>
